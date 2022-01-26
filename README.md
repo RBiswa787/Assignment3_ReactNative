@@ -2,7 +2,7 @@
 ## Screenshots
 
 <div style="display: flex; justify-content: flex-start">
-<img src="https://RBiswa787/Assignment3_ReactNative/blob/master/assets/first.jpeg" alt="not available" style="height: 27%; width:32%;margin-right:2%"/>
+<img src="https://github.com/RBiswa787/Assignment3_ReactNative/blob/master/assets/first.jpeg" alt="not available" style="height: 27%; width:32%;margin-right:2%"/>
 
 <img src="https://github.com/RBiswa787/Assignment3_ReactNative/blob/master/assets/second.jpeg" alt="not available" style="height: 27%; width:32%;"/>
 
