@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View, TextInput, KeyboardAvoidingView } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, TextInput, KeyboardAvoidingView , Alert} from 'react-native';
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 import Svg, { Path } from "react-native-svg";
 export default function App() {
@@ -48,6 +48,10 @@ export default function App() {
         setPercentage(percentage = (count/total)*100);}
         if(count==total-1){
         setPercentage(percentage = ((count+1)/total)*100);
+        Alert.alert(
+          "Congratulations",
+          "Target Reached!",
+        );
         }
       }}><Text style={
         styles.clickme
