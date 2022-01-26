@@ -21,7 +21,7 @@ export default function App() {
   tintColor="white"
   onAnimationComplete={() => console.log('onAnimationComplete')}
   backgroundColor="#3d5875" />
-      <Text style={styles.count}>{count}</Text>
+      <Text style={styles.count}>{count}/{total}</Text>
     <View style={styles.bottom}>
     <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style={styles.svg}>
       <Path
@@ -113,9 +113,9 @@ const styles = StyleSheet.create({
   },
   count: {
     position: 'absolute',
-    marginTop: '32%',
-    marginLeft: '35%',
-    fontSize: 45,
+    marginTop: '36%',
+    marginLeft: '32%',
+    fontSize: 30,
     textAlign: 'center',
     fontWeight: 'bold',
     color: 'white',
